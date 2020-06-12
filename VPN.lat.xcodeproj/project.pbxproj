@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096CB390C5A9ACA2D6BEF2DE /* libPods-VPN.lat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E20CB814DCC9FB81A2A83D5 /* libPods-VPN.lat.a */; };
+		47084F64248E979700DC5B8F /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47084F63248E979700DC5B8F /* BannerView.swift */; };
+		4728BDD424907D3400DFA3A4 /* ConnectedSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4728BDD324907D3400DFA3A4 /* ConnectedSpeed.swift */; };
+		4745860A2480A82500848B5E /* WhatsApp Image 2020-05-29 at 06.32.45.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 474586092480A82500848B5E /* WhatsApp Image 2020-05-29 at 06.32.45.jpeg */; };
+		4750BCF32480552500C3BD3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4750BCF22480552500C3BD3A /* AppDelegate.swift */; };
+		4750BCFA2480552500C3BD3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4750BCF82480552500C3BD3A /* Main.storyboard */; };
+		4750BCFC2480552700C3BD3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4750BCFB2480552700C3BD3A /* Assets.xcassets */; };
+		4750BCFF2480552700C3BD3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4750BCFD2480552700C3BD3A /* LaunchScreen.storyboard */; };
+		475317322488C9D90075DD5A /* GetandSetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475317312488C9D90075DD5A /* GetandSetImage.swift */; };
+		4763639D2481ED9400D08F91 /* VPNListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763639C2481ED9400D08F91 /* VPNListViewController.swift */; };
+		476363A02481F33800D08F91 /* VPNCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763639F2481F33800D08F91 /* VPNCountryTableViewCell.swift */; };
+		476363A32482081000D08F91 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476363A22482081000D08F91 /* Country.swift */; };
+		476363A52482213200D08F91 /* TableGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476363A42482213200D08F91 /* TableGradientView.swift */; };
+		4779A7D72483A51C005CE4A8 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4779A7D62483A51C005CE4A8 /* NetworkExtension.framework */; };
+		479102C024835072008613FF /* SubServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479102BF24835072008613FF /* SubServers.swift */; };
+		479102C224835391008613FF /* SubServerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479102C124835391008613FF /* SubServerTableViewCell.swift */; };
+		4797F69E24805BD4008AD93E /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 4797F69D24805BD4008AD93E /* ic_launcher.png */; };
+		4797F6A02480611E008AD93E /* blue2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4797F69F2480611E008AD93E /* blue2.jpg */; };
+		4797F6A224806988008AD93E /* 41BHNgQeIDL._AC_SL1000_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4797F6A124806988008AD93E /* 41BHNgQeIDL._AC_SL1000_.jpg */; };
+		47BA687124819AAC00B2F69C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA687024819AAC00B2F69C /* GradientView.swift */; };
+		47FFD0EB24818F520024E709 /* AvailableServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFD0EA24818F520024E709 /* AvailableServerViewController.swift */; };
+		47FFD0ED2481955B0024E709 /* ConnectionStateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFD0EC2481955B0024E709 /* ConnectionStateController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47084F63248E979700DC5B8F /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		4728BDD324907D3400DFA3A4 /* ConnectedSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedSpeed.swift; sourceTree = "<group>"; };
+		474586092480A82500848B5E /* WhatsApp Image 2020-05-29 at 06.32.45.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2020-05-29 at 06.32.45.jpeg"; sourceTree = "<group>"; };
+		4750BCEF2480552500C3BD3A /* VPN.lat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPN.lat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4750BCF22480552500C3BD3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4750BCF92480552500C3BD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4750BCFB2480552700C3BD3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4750BCFE2480552700C3BD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4750BD002480552700C3BD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475317312488C9D90075DD5A /* GetandSetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetandSetImage.swift; sourceTree = "<group>"; };
+		475317332488CB5F0075DD5A /* VPN.lat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VPN.lat.entitlements; sourceTree = "<group>"; };
+		4763639C2481ED9400D08F91 /* VPNListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNListViewController.swift; sourceTree = "<group>"; };
+		4763639F2481F33800D08F91 /* VPNCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNCountryTableViewCell.swift; sourceTree = "<group>"; };
+		476363A22482081000D08F91 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		476363A42482213200D08F91 /* TableGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableGradientView.swift; sourceTree = "<group>"; };
+		4779A7D62483A51C005CE4A8 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		479102BF24835072008613FF /* SubServers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubServers.swift; sourceTree = "<group>"; };
+		479102C124835391008613FF /* SubServerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubServerTableViewCell.swift; sourceTree = "<group>"; };
+		4797F69D24805BD4008AD93E /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		4797F69F2480611E008AD93E /* blue2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue2.jpg; sourceTree = "<group>"; };
+		4797F6A124806988008AD93E /* 41BHNgQeIDL._AC_SL1000_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 41BHNgQeIDL._AC_SL1000_.jpg; sourceTree = "<group>"; };
+		47BA687024819AAC00B2F69C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		47FFD0EA24818F520024E709 /* AvailableServerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableServerViewController.swift; sourceTree = "<group>"; };
+		47FFD0EC2481955B0024E709 /* ConnectionStateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStateController.swift; sourceTree = "<group>"; };
+		7D0827205A8EDCF6E0C7A698 /* Pods-VPN.lat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPN.lat.debug.xcconfig"; path = "Target Support Files/Pods-VPN.lat/Pods-VPN.lat.debug.xcconfig"; sourceTree = "<group>"; };
+		9E20CB814DCC9FB81A2A83D5 /* libPods-VPN.lat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VPN.lat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77B10DD25BC770C8C7BFB95 /* Pods-VPN.lat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPN.lat.release.xcconfig"; path = "Target Support Files/Pods-VPN.lat/Pods-VPN.lat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4750BCEC2480552500C3BD3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4779A7D72483A51C005CE4A8 /* NetworkExtension.framework in Frameworks */,
+				096CB390C5A9ACA2D6BEF2DE /* libPods-VPN.lat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4750BCE62480552500C3BD3A = {
+			isa = PBXGroup;
+			children = (
+				4750BCF12480552500C3BD3A /* VPN.lat */,
+				4750BCF02480552500C3BD3A /* Products */,
+				4779A7D52483A51B005CE4A8 /* Frameworks */,
+				8F15E923448C761B8898CD40 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4750BCF02480552500C3BD3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4750BCEF2480552500C3BD3A /* VPN.lat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4750BCF12480552500C3BD3A /* VPN.lat */ = {
+			isa = PBXGroup;
+			children = (
+				475317332488CB5F0075DD5A /* VPN.lat.entitlements */,
+				4792173A24878B0F006FF21B /* OVPN */,
+				476363A1248207F500D08F91 /* Modal */,
+				4763639E2481F2CC00D08F91 /* TableViewCells */,
+				47BA686F24819A7A00B2F69C /* Custom Views */,
+				47FFD0EF248195B40024E709 /* View Controllers */,
+				4750BCF22480552500C3BD3A /* AppDelegate.swift */,
+				4750BCFD2480552700C3BD3A /* LaunchScreen.storyboard */,
+				4750BCF82480552500C3BD3A /* Main.storyboard */,
+				4797F6A124806988008AD93E /* 41BHNgQeIDL._AC_SL1000_.jpg */,
+				474586092480A82500848B5E /* WhatsApp Image 2020-05-29 at 06.32.45.jpeg */,
+				4797F69F2480611E008AD93E /* blue2.jpg */,
+				4750BCFB2480552700C3BD3A /* Assets.xcassets */,
+				4797F69D24805BD4008AD93E /* ic_launcher.png */,
+				4750BD002480552700C3BD3A /* Info.plist */,
+			);
+			path = VPN.lat;
+			sourceTree = "<group>";
+		};
+		4763639E2481F2CC00D08F91 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4763639F2481F33800D08F91 /* VPNCountryTableViewCell.swift */,
+				479102C124835391008613FF /* SubServerTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		476363A1248207F500D08F91 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				476363A22482081000D08F91 /* Country.swift */,
+				479102BF24835072008613FF /* SubServers.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		4779A7D52483A51B005CE4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4779A7D62483A51C005CE4A8 /* NetworkExtension.framework */,
+				9E20CB814DCC9FB81A2A83D5 /* libPods-VPN.lat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4792173A24878B0F006FF21B /* OVPN */ = {
+			isa = PBXGroup;
+			children = (
+				4728BDD324907D3400DFA3A4 /* ConnectedSpeed.swift */,
+			);
+			path = OVPN;
+			sourceTree = "<group>";
+		};
+		47BA686F24819A7A00B2F69C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				47BA687024819AAC00B2F69C /* GradientView.swift */,
+				476363A42482213200D08F91 /* TableGradientView.swift */,
+				475317312488C9D90075DD5A /* GetandSetImage.swift */,
+				47084F63248E979700DC5B8F /* BannerView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		47FFD0EF248195B40024E709 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47FFD0EC2481955B0024E709 /* ConnectionStateController.swift */,
+				47FFD0EA24818F520024E709 /* AvailableServerViewController.swift */,
+				4763639C2481ED9400D08F91 /* VPNListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8F15E923448C761B8898CD40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D0827205A8EDCF6E0C7A698 /* Pods-VPN.lat.debug.xcconfig */,
+				B77B10DD25BC770C8C7BFB95 /* Pods-VPN.lat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4750BCEE2480552500C3BD3A /* VPN.lat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4750BD032480552700C3BD3A /* Build configuration list for PBXNativeTarget "VPN.lat" */;
+			buildPhases = (
+				27E2A05B5ACDC8980750DDBE /* [CP] Check Pods Manifest.lock */,
+				4750BCEB2480552500C3BD3A /* Sources */,
+				4750BCEC2480552500C3BD3A /* Frameworks */,
+				4750BCED2480552500C3BD3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPN.lat;
+			productName = VPN.lat;
+			productReference = 4750BCEF2480552500C3BD3A /* VPN.lat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4750BCE72480552500C3BD3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = user173177;
+				TargetAttributes = {
+					4750BCEE2480552500C3BD3A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4750BCEA2480552500C3BD3A /* Build configuration list for PBXProject "VPN.lat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4750BCE62480552500C3BD3A;
+			productRefGroup = 4750BCF02480552500C3BD3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4750BCEE2480552500C3BD3A /* VPN.lat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4750BCED2480552500C3BD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4750BCFF2480552700C3BD3A /* LaunchScreen.storyboard in Resources */,
+				4750BCFC2480552700C3BD3A /* Assets.xcassets in Resources */,
+				4745860A2480A82500848B5E /* WhatsApp Image 2020-05-29 at 06.32.45.jpeg in Resources */,
+				4797F6A224806988008AD93E /* 41BHNgQeIDL._AC_SL1000_.jpg in Resources */,
+				4750BCFA2480552500C3BD3A /* Main.storyboard in Resources */,
+				4797F6A02480611E008AD93E /* blue2.jpg in Resources */,
+				4797F69E24805BD4008AD93E /* ic_launcher.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E2A05B5ACDC8980750DDBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPN.lat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4750BCEB2480552500C3BD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728BDD424907D3400DFA3A4 /* ConnectedSpeed.swift in Sources */,
+				475317322488C9D90075DD5A /* GetandSetImage.swift in Sources */,
+				476363A02481F33800D08F91 /* VPNCountryTableViewCell.swift in Sources */,
+				479102C224835391008613FF /* SubServerTableViewCell.swift in Sources */,
+				479102C024835072008613FF /* SubServers.swift in Sources */,
+				47FFD0EB24818F520024E709 /* AvailableServerViewController.swift in Sources */,
+				4750BCF32480552500C3BD3A /* AppDelegate.swift in Sources */,
+				476363A52482213200D08F91 /* TableGradientView.swift in Sources */,
+				47BA687124819AAC00B2F69C /* GradientView.swift in Sources */,
+				47084F64248E979700DC5B8F /* BannerView.swift in Sources */,
+				476363A32482081000D08F91 /* Country.swift in Sources */,
+				47FFD0ED2481955B0024E709 /* ConnectionStateController.swift in Sources */,
+				4763639D2481ED9400D08F91 /* VPNListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4750BCF82480552500C3BD3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4750BCF92480552500C3BD3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4750BCFD2480552700C3BD3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4750BCFE2480552700C3BD3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4750BD012480552700C3BD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4750BD022480552700C3BD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4750BD042480552700C3BD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0827205A8EDCF6E0C7A698 /* Pods-VPN.lat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VPN.lat/VPN.lat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPN.lat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VPN.lat-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4750BD052480552700C3BD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77B10DD25BC770C8C7BFB95 /* Pods-VPN.lat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VPN.lat/VPN.lat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VPN.lat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VPN.lat-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4750BCEA2480552500C3BD3A /* Build configuration list for PBXProject "VPN.lat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4750BD012480552700C3BD3A /* Debug */,
+				4750BD022480552700C3BD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4750BD032480552700C3BD3A /* Build configuration list for PBXNativeTarget "VPN.lat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4750BD042480552700C3BD3A /* Debug */,
+				4750BD052480552700C3BD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4750BCE72480552500C3BD3A /* Project object */;
+}

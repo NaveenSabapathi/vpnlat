@@ -1,0 +1,6 @@
+module Pods_VPN_lat {
+  umbrella header "Pods-VPN.lat-umbrella.h"
+
+  export *
+  module * { export * }
+}
